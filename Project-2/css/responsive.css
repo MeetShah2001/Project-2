@@ -1,0 +1,118 @@
+@media only screen and (max-width:960px){
+    .leftNav {
+        font-size: 1.5rem;
+    }
+    i.menu-bar{
+        display: block;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    i.fa-bars{
+        display: flex;
+        justify-content: right;
+        width: 50%;
+        margin-right: 50px;
+    }
+    i.fa-xmark{
+        color: white;
+        display: flex;
+        justify-content: left;
+    }
+    .rightNav{
+        flex-direction: column;
+        text-align: left;
+    }
+    .nav-links {
+        visibility: hidden;
+        position: absolute;
+        background: #6cc8f5;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0px;
+        text-align: left;
+        z-index: 2;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+    li.item {
+    margin-bottom: 13px; 
+    }
+    li.item a{
+        color: white;
+    }
+}
+@media only screen and (max-width:770px){
+    /* second section */
+    .secondSec{
+        max-width: 95%;
+    }
+    .secondSec div {
+        flex-direction: column;
+    }   
+    .secondSec div div.resp-div{
+        flex-direction: row;
+        align-items: unset;
+        margin-bottom: 18px;
+    }
+}
+@media only screen and (max-width:540px){
+    /* thirdSection */
+    .thirdSec div{
+        width: 90%;
+    };
+}
+@media only screen and (max-width:990px){
+    /* fourth section */
+    .layer div h3 {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width:768px){
+    /* fourth section */
+    section.fourthSec {
+        height: 206px;
+    }
+    .layer div h3 {
+        font-size: 1.5rem;
+    }
+    /* fifth Section */
+    .fthSecdiv-2{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:456px){
+    /* fourth section */
+    section.fourthSec {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    /* fifth Section */
+    .fthSecdiv-2{
+        height: auto;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:870px){
+    /* seventh section */
+    .seventhSec{
+        width: 95%;
+    }
+    ul.row-1{
+        flex-direction: column;
+    }
+    ul.row-1b {
+        margin-bottom: 14px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:512px){
+    /* seventh section */
+    ul.row-1b {
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+}
